@@ -1,0 +1,105 @@
+body {
+  margin: 1rem 1.5rem;
+  background-color: #000;
+}
+
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 2rem;
+}
+
+main {
+  position: relative;
+}
+
+.countdown {
+  color: #fff;
+  background-color: hsl(0, 0%, 7%);
+  text-align: center;
+  font-size: 4rem;
+
+  margin: 1rem 0rem;
+}
+
+.countdown p{
+  font-size: 1rem;
+}
+
+.lineup {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lineup-container {
+  width: 25rem;
+  margin: 2rem;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.lineup-container:hover {
+  transform: scale(1.2);
+}
+
+.lineup-container img {
+  margin-bottom: 1rem;
+}
+
+.lineup-container-description{
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 12%;
+
+  width: 82rem;
+}
+
+.target{
+  color: #000;
+  width: 80rem;
+  height: 100vh;
+  display: flex;
+}
+
+.artist_image{
+  width: 30rem;
+  height: 30rem;
+
+  margin: 5rem;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0rem;
+}
+
+.socials {
+  display: flex;
+  margin: 2rem 0rem;
+}
+
+.socials a{
+  margin: 0rem 1rem;
+}
+
+.socials a img{
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+}
+
+.cross {
+  width: 2rem;
+  height: 2rem;
+}
